@@ -4,139 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
+    <title>home|Adarsh Balika</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Welcome to my component Library</h1>
-    <p>Trying to make a library to make my projects look unique.</p>
-
-    <hr >
-
-    <h2>@Typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-
-    <p>This is normal text. It will free flow and will wrap at the end like a paragraph</p>
-    <small>This is relatively smaller Text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container container-fluid">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a center container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class= "link primary-link" href="/">Primary Link</a>
-    <a class= "link secondary-link" href="/">Secondary Link</a>
-
-    <hr>
-    
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullet</p>
-
-    <ul class="non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-
-    </ul>
-
-    <h3>unordered Inline list</h3>
-
-    <ul class="non-bullet">
-        <li class = "list-item-inline">Inline Item one</li>
-        <li class = "list-item-inline">Inline Item two</li>
-        <li class = "list-item-inline">Inline Item three</li>
-    </ul>
-
-    <h3>Reverse ordered list</h3>
-
-    <ol reversed>
-        <li>Milk</li>
-        <li>Egg</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
     <nav class="navigation">
         <div class="nav-brand">WebDeveloper</div>
         <ul class="non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active"  href="/">home</a>
+                <a class="link link-active"  href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">produts</a>
+                <a class="link"  href="/SkillTools.html">Skills and Tools</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+            <a class="link" href="/blogs.html">Blogs</a>
             </li>
 
         </ul>
     </nav>
     
-    <hr>
-
-   <h2>@header</h2>
-    
     <header class="hero">
-        <img class="hero-img" src="images/ProfileImage.svg" />
-        <h1 class="hero-heading">heading inside hero</h1>
+    <img class="hero-img" src="https://www.kindpng.com/picc/m/364-3647671_software-developer-computer-servers-web-others-software-developer.png" />
+    <h1 class="hero-heading">heading inside hero</h1>
 
-    </header>
+</header>
 
-    <hr>
+<section class="section">
+    <div class="container-center">
 
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-
-    <h1>White Section</h1>
-    <p>This will have white background</p>
+<h1>Skills and Tools</h1>
+<p>Please find the details of my skill set and the tools I am familiar with</p>
+</div>
+<div class="section ow">
+        <h3 class="skill-title">Skills</h3>
+        <div class="skill-list">
+            <div class="skill-name"><span>HTML</span><img src="https://pbs.twimg.com/profile_images/1219002673/twitter_avatar_200x200.png" class="skill-list-images" alt="HTML"></div>
+            <div class="skill-name"><span>CSS</span><img src="https://pbs.twimg.com/profile_images/1080202898372362240/akqRGyta_reasonably_small.jpg" class="skill-list-images" alt="CSS"></div>
+            <div class="skill-name"><span>JavaScript</span><img src="https://pbs.twimg.com/profile_images/827354992377860096/sUe4dG_L_reasonably_small.jpg"  class="skill-list-images" alt="javascript"></div>
+            <div class="skill-name"><span>React.js</span><img src="https://pbs.twimg.com/profile_images/956462634647343104/u5LPYJ1D_reasonably_small.jpg" class="skill-list-images" alt="react.js"></div>
     </div>
+</div>
 
-    </section>
-    
-    <section class="section ow">
-        <div class="container container-center">
-    <h1>Off White Section</h1>
-    <p>This will have gray background</p>
-    </div>
-    </section>
+<div class="section ow">
+    <h3 class="skill-title">Tools</h3>
+    <div class="skill-list">
+        <div class="skill-name"><span>GitHub</span><img src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_reasonably_small.jpg" class="skill-list-images" alt="Github"></div>
+        <div class="skill-name"><span>VScode</span><img src="https://pbs.twimg.com/profile_images/1410632439370641409/Pt-7RucE_reasonably_small.jpg" class="skill-list-images" alt="VSCode"></div>
+        <div class="skill-name"><span>Netlify</span><img src="https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_reasonably_small.jpg" class="skill-list-images" alt="Netlify"></div>
 
-    <hr>
+</div>
+</div>
 
-    <h2>@footer</h2>
+<section class="section">
+    <div class="container container-center">
 
-    <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
-        <ul class="social-links non-bullet">
-            <li class="list-item-inline">
-                <a class="link" href="/">SocialOne</a>
-            </li>
-            <li class="list-item-inline"><a class="link" href="/">SocialTwo</a>
-            </li>
-            <li class="list-item-inline"><a class="link" href="/">SocialThree</a>
-            </li>
-        </ul>
-    </footer>
+<h1>Projects</h1>
+<p>You can see my projects here</p>
+<a class="link primary-link" href="/">See Projects</a>
+</div>
+</section>
 
-    <!-- <div style="height: 30vh;"></div> -->
+<section class="section ow">
+    <div class="container container-center">
+<h1>Blogs</h1>
+<p>You can find details for my blogs here</p>
+<a class="link primary-link" href="/">See Blogs</a>
+</div>
+</section>
+
+<footer class="footer">
+    <div class="footer-header">Social Media Links</div>
+    <ul class="social-links non-bullet">
+        <li class="list-item-inline">
+            <a class="link" href="/">Linkedin</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="/">Github</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="/">Facebook</a>
+        </li>
+    </ul>
+</footer>
+
+
+
 
 </body>
 </html>

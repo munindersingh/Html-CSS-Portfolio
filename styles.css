@@ -28,7 +28,7 @@ padding-right: 1rem;
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem;   
 }
 
 .primary-link{
@@ -102,7 +102,7 @@ padding-right: 1rem;
 /**Section**/
 
 .section{
-    padding: 2rem;
+    padding-top: 5%;
 }
 .section h1{
     text-align: center;
@@ -127,11 +127,41 @@ padding-right: 1rem;
     color: white;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul{
     padding-inline-start: 0px;
 
 }
 
+/**Skills and tools**/
+
+.Skill-title{
+    text-align: Center;
+
+}
+
+.skill-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-name{
+    display:flex;
+    flex-direction: column-reverse;
+    text-align:center;
+    margin: 3%;
+}
+
+.skill-list-images{
+    width: 70px;px;
+    height: 70px;px;
+}
 
 
 
